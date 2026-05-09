@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "pair_000",
+    "category": "confounding",
+    "causal": {
+      "question": "Countries with more Nobel laureates consume more chocolate. If a country increases chocolate consumption, will it win more Nobels?",
+      "options": [
+        "No, a third factor like national wealth likely drives both.",
+        "Yes, chocolate provides cognitive benefits.",
+        "Yes, but only with large increases."
+      ],
+      "correct_index": 0
+    },
+    "correlational": {
+      "question": "Countries with more Nobel winners tend to have what chocolate consumption?",
+      "options": [
+        "Higher chocolate consumption.",
+        "Lower chocolate consumption.",
+        "Average chocolate consumption."
+      ],
+      "correct_index": 0
+    }
+  },
+  {
+    "id": "pair_001",
+    "category": "confounding",
+    "causal": {
+      "question": "Students who eat breakfast score higher on tests. If we mandate breakfast, will scores improve?",
+      "options": [
+        "Yes, breakfast provides energy for tests.",
+        "Not necessarily, family stability may drive both.",
+        "Yes, but only for morning tests."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Students who eat breakfast tend to score:",
+      "options": [
+        "Lower than those who skip.",
+        "Higher than those who skip.",
+        "The same as those who skip."
+      ],
+      "correct_index": 1
+    }
+  },
+  {
+    "id": "pair_002",
+    "category": "confounding",
+    "causal": {
+      "question": "Cities with more firefighters have more fires. Should cities reduce firefighters?",
+      "options": [
+        "Yes, fewer firefighters means less fire activity.",
+        "Yes, reduce gradually.",
+        "No, larger cities have both more firefighters and fires."
+      ],
+      "correct_index": 2
+    },
+    "correlational": {
+      "question": "Cities with more firefighters tend to have:",
+      "options": [
+        "Fewer fires.",
+        "Same fires.",
+        "More fires."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_003",
+    "category": "confounding",
+    "causal": {
+      "question": "Wine drinkers have lower heart disease. Should everyone drink wine?",
+      "options": [
+        "Not necessarily, wine drinkers may have healthier lifestyles.",
+        "Yes, antioxidants protect the heart.",
+        "Yes, but only red wine."
+      ],
+      "correct_index": 0
+    },
+    "correlational": {
+      "question": "Moderate wine drinkers tend to have:",
+      "options": [
+        "Lower heart disease rates.",
+        "Higher heart disease rates.",
+        "Similar heart disease rates."
+      ],
+      "correct_index": 0
+    }
+  },
+  {
+    "id": "pair_004",
+    "category": "confounding",
+    "causal": {
+      "question": "Married people are happier. Would marriage make unhappy people happy?",
+      "options": [
+        "Yes, marriage provides companionship.",
+        "Not necessarily, happier people may be more likely to marry.",
+        "Yes, but only after five years."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Married vs unmarried people tend to report:",
+      "options": [
+        "Lower happiness.",
+        "Similar happiness.",
+        "Higher happiness."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_005",
+    "category": "confounding",
+    "causal": {
+      "question": "Families with books have higher-achieving children. Should we give books to struggling families?",
+      "options": [
+        "Yes with reading programs.",
+        "Yes, books directly improve achievement.",
+        "Not necessarily, educated parents both buy books and help with school."
+      ],
+      "correct_index": 2
+    },
+    "correlational": {
+      "question": "Families with more books tend to have children who:",
+      "options": [
+        "Perform worse.",
+        "Perform similarly.",
+        "Perform better."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_006",
+    "category": "confounding",
+    "causal": {
+      "question": "Countries with more hospitals have higher death rates. Close hospitals?",
+      "options": [
+        "No, sicker populations need more hospitals.",
+        "Yes, hospitals may cause iatrogenic deaths.",
+        "Yes, but only small ones."
+      ],
+      "correct_index": 0
+    },
+    "correlational": {
+      "question": "Countries with more hospitals per capita tend to have:",
+      "options": [
+        "Lower death rates.",
+        "Similar death rates.",
+        "Higher death rates."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_007",
+    "category": "confounding",
+    "causal": {
+      "question": "Employees taking more vacation get more promotions. Take more vacation?",
+      "options": [
+        "Not necessarily, high performers earn both.",
+        "Yes, vacation improves productivity.",
+        "Yes, for professional development."
+      ],
+      "correct_index": 0
+    },
+    "correlational": {
+      "question": "Employees taking more vacation tend to:",
+      "options": [
+        "Get fewer promotions.",
+        "Get similar promotions.",
+        "Get more promotions."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_008",
+    "category": "confounding",
+    "causal": {
+      "question": "Cities with more police have higher crime. Reduce police?",
+      "options": [
+        "Yes, police escalate conflicts.",
+        "Yes, reduce gradually.",
+        "No, high-crime cities hire more police."
+      ],
+      "correct_index": 2
+    },
+    "correlational": {
+      "question": "Cities with larger police forces tend to have:",
+      "options": [
+        "Lower crime rates.",
+        "Similar crime rates.",
+        "Higher crime rates."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_009",
+    "category": "confounding",
+    "causal": {
+      "question": "Pet owners live longer. Prescribe pets for longevity?",
+      "options": [
+        "Yes, pets provide companionship.",
+        "Not necessarily, healthier people own pets.",
+        "Yes, but only dogs."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Pet owners compared to non-owners tend to:",
+      "options": [
+        "Live shorter lives.",
+        "Live similar lives.",
+        "Live longer lives."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_010",
+    "category": "intervention",
+    "causal": {
+      "question": "Patients who chose the drug recovered faster. Does the drug work?",
+      "options": [
+        "Yes, faster recovery proves it.",
+        "No, patients who chose may have been healthier.",
+        "Yes, if significantly faster."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Patients who took the drug:",
+      "options": [
+        "Recovered slower.",
+        "Recovered similarly.",
+        "Recovered faster."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_011",
+    "category": "intervention",
+    "causal": {
+      "question": "Employees who attend training earn more. Does training cause higher earnings?",
+      "options": [
+        "Not necessarily, ambitious employees seek both.",
+        "Yes, training improves skills.",
+        "Yes, if longer than a week."
+      ],
+      "correct_index": 0
+    },
+    "correlational": {
+      "question": "Employees who attend training tend to:",
+      "options": [
+        "Earn less.",
+        "Earn similarly.",
+        "Earn more."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_012",
+    "category": "intervention",
+    "causal": {
+      "question": "Volunteers have better mental health. Prescribe volunteering?",
+      "options": [
+        "Yes, volunteering provides purpose.",
+        "Yes, at least 10 hours/week.",
+        "Not necessarily, healthy people volunteer more."
+      ],
+      "correct_index": 2
+    },
+    "correlational": {
+      "question": "People who volunteer tend to report:",
+      "options": [
+        "Worse mental health.",
+        "Similar mental health.",
+        "Better mental health."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_013",
+    "category": "intervention",
+    "causal": {
+      "question": "Patients choosing surgery had better outcomes. Is surgery better?",
+      "options": [
+        "Yes, outcomes prove it.",
+        "Not necessarily, healthier patients chose surgery.",
+        "Yes, under age 60."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Patients who chose surgery:",
+      "options": [
+        "Had worse outcomes.",
+        "Had similar outcomes.",
+        "Had better outcomes."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_014",
+    "category": "intervention",
+    "causal": {
+      "question": "Schools adopting new curriculum saw scores rise. Should all adopt it?",
+      "options": [
+        "Not necessarily, adopting schools may have more resources.",
+        "Yes, rising scores prove it.",
+        "Yes, for similar demographics."
+      ],
+      "correct_index": 0
+    },
+    "correlational": {
+      "question": "Schools that adopted the curriculum saw scores:",
+      "options": [
+        "Decrease.",
+        "Stay same.",
+        "Increase."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_015",
+    "category": "intervention",
+    "causal": {
+      "question": "Electric car owners report lower fuel costs. Do EVs save money?",
+      "options": [
+        "Yes, electricity is cheaper.",
+        "Not necessarily, early adopters drive less.",
+        "Yes, in low-electricity-rate states."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "EV owners report fuel costs:",
+      "options": [
+        "Higher than before.",
+        "Similar to before.",
+        "Lower than before."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_016",
+    "category": "intervention",
+    "causal": {
+      "question": "Restaurants raising prices saw satisfaction increase. Raise prices?",
+      "options": [
+        "Yes, higher prices signal quality.",
+        "Yes, by 5-10%.",
+        "Not necessarily, successful restaurants could raise prices."
+      ],
+      "correct_index": 2
+    },
+    "correlational": {
+      "question": "Restaurants that raised prices saw satisfaction:",
+      "options": [
+        "Decrease.",
+        "Stay same.",
+        "Increase."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_017",
+    "category": "intervention",
+    "causal": {
+      "question": "Remote workers report higher satisfaction. Mandate remote work?",
+      "options": [
+        "Yes, remote improves work-life balance.",
+        "Not necessarily, remote workers may have better jobs.",
+        "Yes, with home offices."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Remote workers report:",
+      "options": [
+        "Lower satisfaction.",
+        "Similar satisfaction.",
+        "Higher satisfaction."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_018",
+    "category": "intervention",
+    "causal": {
+      "question": "Meditation app users showed reduced anxiety. Does app reduce anxiety?",
+      "options": [
+        "Not necessarily, anxious people try many things.",
+        "Yes, meditation reduces anxiety.",
+        "Yes, with 20 min daily."
+      ],
+      "correct_index": 0
+    },
+    "correlational": {
+      "question": "Meditation app users showed anxiety:",
+      "options": [
+        "Increased.",
+        "Unchanged.",
+        "Decreased."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_019",
+    "category": "intervention",
+    "causal": {
+      "question": "Tutored students got better grades. Should struggling students get tutoring?",
+      "options": [
+        "Yes, tutoring provides instruction.",
+        "Not necessarily, tutored students may be more motivated.",
+        "Yes, only one-on-one."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Tutored students:",
+      "options": [
+        "Got worse grades.",
+        "Got similar grades.",
+        "Got better grades."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_020",
+    "category": "counterfactual",
+    "causal": {
+      "question": "Patient recovered after antibiotics and rest. Would rest alone work?",
+      "options": [
+        "No, antibiotics were necessary.",
+        "Possibly, we cannot know without comparison.",
+        "Yes, rest was sufficient."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "The patient who took antibiotics and rested:",
+      "options": [
+        "Did not recover.",
+        "Partially recovered.",
+        "Fully recovered."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_021",
+    "category": "counterfactual",
+    "causal": {
+      "question": "Profits rose after new CEO. Is CEO responsible?",
+      "options": [
+        "Yes, timing proves it.",
+        "Not necessarily, market conditions may explain it.",
+        "Yes, if above industry average."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "After new CEO, profits:",
+      "options": [
+        "Decreased.",
+        "Stayed same.",
+        "Increased."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_022",
+    "category": "counterfactual",
+    "causal": {
+      "question": "Student passed with new method. Would traditional work?",
+      "options": [
+        "No, new method was essential.",
+        "Yes, would have passed anyway.",
+        "Cannot know without comparison."
+      ],
+      "correct_index": 2
+    },
+    "correlational": {
+      "question": "Student with new method:",
+      "options": [
+        "Failed.",
+        "Barely passed.",
+        "Passed."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_023",
+    "category": "counterfactual",
+    "causal": {
+      "question": "Crime dropped after cameras. Did cameras cause it?",
+      "options": [
+        "Yes, cameras deterred criminals.",
+        "Not necessarily, other factors may explain it.",
+        "Yes, in covered areas."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "After cameras, crime:",
+      "options": [
+        "Increased.",
+        "Stayed same.",
+        "Dropped."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_024",
+    "category": "counterfactual",
+    "causal": {
+      "question": "Patient improved with alternative therapy. Did therapy work?",
+      "options": [
+        "Yes, improvement proves it.",
+        "Cannot know without controlled comparison.",
+        "Yes, placebo effect."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Patient with alternative therapy:",
+      "options": [
+        "Got worse.",
+        "Stayed same.",
+        "Improved."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_025",
+    "category": "counterfactual",
+    "causal": {
+      "question": "Team won after new coach. Was coach the reason?",
+      "options": [
+        "Not necessarily, talented players may have won anyway.",
+        "Yes, coach's strategies worked.",
+        "Yes, coach improved morale."
+      ],
+      "correct_index": 0
+    },
+    "correlational": {
+      "question": "After new coach, team:",
+      "options": [
+        "Missed playoffs.",
+        "Made playoffs only.",
+        "Won championship."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_026",
+    "category": "counterfactual",
+    "causal": {
+      "question": "Traffic increased after redesign. Did redesign cause it?",
+      "options": [
+        "Yes, new design attracted visitors.",
+        "Not necessarily, marketing may explain it.",
+        "Yes, better SEO."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "After redesign, traffic:",
+      "options": [
+        "Decreased.",
+        "Stayed same.",
+        "Increased."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_027",
+    "category": "counterfactual",
+    "causal": {
+      "question": "Air quality improved after vehicle ban. Did ban cause it?",
+      "options": [
+        "Yes, removing polluters improved air.",
+        "Not necessarily, weather may explain it.",
+        "Yes, in enforced areas."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "After ban, air quality:",
+      "options": [
+        "Worsened.",
+        "Stayed same.",
+        "Improved."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_028",
+    "category": "counterfactual",
+    "causal": {
+      "question": "Student grades improved after switching schools. New school caused it?",
+      "options": [
+        "Not necessarily, student may have matured.",
+        "Yes, teaching methods improved.",
+        "Yes, easier grading."
+      ],
+      "correct_index": 0
+    },
+    "correlational": {
+      "question": "After switching, grades:",
+      "options": [
+        "Declined.",
+        "Stayed same.",
+        "Improved."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_029",
+    "category": "counterfactual",
+    "causal": {
+      "question": "Stock rose after earnings. Did announcement cause it?",
+      "options": [
+        "Yes, positive news caused buying.",
+        "Not necessarily, market trends may explain it.",
+        "Yes, beat expectations."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "After announcement, stock:",
+      "options": [
+        "Fell.",
+        "Stayed same.",
+        "Rose."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_030",
+    "category": "simpsons_paradox",
+    "causal": {
+      "question": "Drug A better overall, Drug B better for mild and severe cases. Which more effective?",
+      "options": [
+        "Drug A, overall matters.",
+        "Drug B, better in each subgroup.",
+        "Equally effective."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Looking at overall recovery rates:",
+      "options": [
+        "Drug A higher.",
+        "Drug B higher.",
+        "Same."
+      ],
+      "correct_index": 0
+    }
+  },
+  {
+    "id": "pair_031",
+    "category": "simpsons_paradox",
+    "causal": {
+      "question": "Hospital higher survival overall but lower for each disease. Better hospital?",
+      "options": [
+        "Yes, overall is best measure.",
+        "Not necessarily, may treat less severe cases.",
+        "Yes, with experienced surgeons."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Hospital's overall survival:",
+      "options": [
+        "Lower than average.",
+        "Average.",
+        "Higher than average."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_032",
+    "category": "simpsons_paradox",
+    "causal": {
+      "question": "University admits more women overall but fewer in every department. Bias?",
+      "options": [
+        "No, higher overall proves no bias.",
+        "Yes, lower in each department suggests bias.",
+        "Cannot determine."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Overall admission rate for women:",
+      "options": [
+        "Lower than men.",
+        "Same as men.",
+        "Higher than men."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_033",
+    "category": "simpsons_paradox",
+    "causal": {
+      "question": "Treatment X better overall but worse for young and old separately. Recommend it?",
+      "options": [
+        "Yes, overall matters.",
+        "No, worse in every age group.",
+        "Yes, for middle-aged."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Treatment X overall outcomes:",
+      "options": [
+        "Worse.",
+        "Similar.",
+        "Better."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_034",
+    "category": "simpsons_paradox",
+    "causal": {
+      "question": "Player A higher average overall but lower in day and night games. Better hitter?",
+      "options": [
+        "Player A, higher overall.",
+        "Player with higher in each condition.",
+        "Equally good."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Player A's overall average:",
+      "options": [
+        "Lower.",
+        "Same.",
+        "Higher."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_035",
+    "category": "simpsons_paradox",
+    "causal": {
+      "question": "Diet better overall but worse for men and women separately. Effective?",
+      "options": [
+        "Yes, overall proves it.",
+        "No, worse for every subgroup.",
+        "Yes, with exercise."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Diet's overall weight loss:",
+      "options": [
+        "Less than control.",
+        "Similar to control.",
+        "More than control."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_036",
+    "category": "simpsons_paradox",
+    "causal": {
+      "question": "School higher scores overall but lower in math and reading. Good school?",
+      "options": [
+        "Yes, higher overall indicates quality.",
+        "Not necessarily, different student mix.",
+        "Yes, with extracurriculars."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "School's overall scores:",
+      "options": [
+        "Below average.",
+        "Average.",
+        "Above average."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_037",
+    "category": "simpsons_paradox",
+    "causal": {
+      "question": "Medication reduces symptoms overall but increases for chronic and acute. Prescribe?",
+      "options": [
+        "Yes, overall reduction justifies it.",
+        "No, worse in every category.",
+        "Yes, for moderate symptoms."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Medication's overall effect:",
+      "options": [
+        "Increased symptoms.",
+        "No effect.",
+        "Reduced symptoms."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_038",
+    "category": "simpsons_paradox",
+    "causal": {
+      "question": "Airline better on-time overall but worse at every airport. More reliable?",
+      "options": [
+        "Yes, overall matters.",
+        "No, worse everywhere suggests issues.",
+        "Yes, for domestic."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Airline's overall on-time rate:",
+      "options": [
+        "Lower.",
+        "Same.",
+        "Higher."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_039",
+    "category": "simpsons_paradox",
+    "causal": {
+      "question": "Fertilizer increases yield overall but decreases for wheat and corn. Use it?",
+      "options": [
+        "Yes, overall increase shows effectiveness.",
+        "No, reduces yields for every crop.",
+        "Yes, on certain soils."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Fertilizer's overall yields:",
+      "options": [
+        "Decreased.",
+        "No effect.",
+        "Increased."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_040",
+    "category": "mediation",
+    "causal": {
+      "question": "Exercise improves mood, mood increases productivity. Encourage exercise for productivity?",
+      "options": [
+        "Yes, exercise leads to mood then productivity.",
+        "No, exercise takes time from work.",
+        "Yes, moderate exercise only."
+      ],
+      "correct_index": 0
+    },
+    "correlational": {
+      "question": "People who exercise tend to have:",
+      "options": [
+        "Lower productivity.",
+        "Similar productivity.",
+        "Higher productivity."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_041",
+    "category": "mediation",
+    "causal": {
+      "question": "Education increases income via skills. Would degrees without education increase income?",
+      "options": [
+        "Yes, degree signals competence.",
+        "No, skills from education increase income.",
+        "Yes, from prestigious universities."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "More educated people tend to have:",
+      "options": [
+        "Lower incomes.",
+        "Similar incomes.",
+        "Higher incomes."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_042",
+    "category": "mediation",
+    "causal": {
+      "question": "Ads increase awareness, awareness increases sales. Would ads help already-famous brand?",
+      "options": [
+        "Yes, ads have direct sales effects.",
+        "Not necessarily, awareness already high.",
+        "Yes, if creative."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Companies spending more on ads tend to have:",
+      "options": [
+        "Lower sales.",
+        "Similar sales.",
+        "Higher sales."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_043",
+    "category": "mediation",
+    "causal": {
+      "question": "Sleep improves memory, memory improves test scores. Would stimulant help despite blocking sleep?",
+      "options": [
+        "Yes, focus helps.",
+        "No, memory consolidation loss hurts.",
+        "Yes, for immediate tests."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Students with more sleep tend to:",
+      "options": [
+        "Score lower.",
+        "Score similarly.",
+        "Score higher."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_044",
+    "category": "mediation",
+    "causal": {
+      "question": "Reading improves vocabulary, vocabulary improves writing. Would memorizing dictionary help writing?",
+      "options": [
+        "Yes, vocabulary is key.",
+        "Not necessarily, reading provides context.",
+        "Yes, with grammar practice."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "People who read more tend to:",
+      "options": [
+        "Write worse.",
+        "Write similarly.",
+        "Write better."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_045",
+    "category": "mediation",
+    "causal": {
+      "question": "Trust increases communication, communication improves performance. Can team perform without trust?",
+      "options": [
+        "Yes, communication substitutes.",
+        "Not fully, trust enables quality communication.",
+        "Yes, for simple tasks."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Teams with higher trust tend to:",
+      "options": [
+        "Perform worse.",
+        "Perform similarly.",
+        "Perform better."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_046",
+    "category": "mediation",
+    "causal": {
+      "question": "Sunlight causes vitamin D, D strengthens bones. Would D supplements replace sunlight?",
+      "options": [
+        "Yes, D is the mechanism.",
+        "Not necessarily, sunlight has other effects.",
+        "Yes, at high doses."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "People with more sunlight tend to have:",
+      "options": [
+        "Weaker bones.",
+        "Similar bones.",
+        "Stronger bones."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_047",
+    "category": "mediation",
+    "causal": {
+      "question": "Social connection reduces stress, less stress improves immunity. Would stress meds equal social connection?",
+      "options": [
+        "Yes, stress reduction is key.",
+        "Not necessarily, social has direct effects.",
+        "Yes, if taken regularly."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "More socially connected people tend to have:",
+      "options": [
+        "Worse immunity.",
+        "Similar immunity.",
+        "Better immunity."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_048",
+    "category": "mediation",
+    "causal": {
+      "question": "Practice builds muscle memory, muscle memory improves performance. Can athletes skip practice and visualize?",
+      "options": [
+        "Yes, visualization activates same pathways.",
+        "Not fully, physical practice builds muscle memory.",
+        "Yes, for learned skills."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Athletes who practice more tend to:",
+      "options": [
+        "Perform worse.",
+        "Perform similarly.",
+        "Perform better."
+      ],
+      "correct_index": 2
+    }
+  },
+  {
+    "id": "pair_049",
+    "category": "mediation",
+    "causal": {
+      "question": "Coffee increases alertness, alertness improves focus. Would caffeine pills equal coffee for focus?",
+      "options": [
+        "Yes, caffeine is the mechanism.",
+        "Not necessarily, coffee has rituals and other compounds.",
+        "Yes, at equivalent doses."
+      ],
+      "correct_index": 1
+    },
+    "correlational": {
+      "question": "Coffee drinkers tend to have:",
+      "options": [
+        "Lower focus.",
+        "Similar focus.",
+        "Higher focus."
+      ],
+      "correct_index": 2
+    }
+  }
+]

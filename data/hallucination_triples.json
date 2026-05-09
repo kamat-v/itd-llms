@@ -1,0 +1,122 @@
+[
+  {
+    "id": "item_000",
+    "category": "geography",
+    "question": "What is the capital of Australia?",
+    "correct_answer": "Canberra",
+    "context_relevant": "Canberra is Australia's capital, where Parliament House is located.",
+    "context_misleading": "Sydney is Australia's largest city with the Opera House. Melbourne is the cultural capital."
+  },
+  {
+    "id": "item_001",
+    "category": "history",
+    "question": "Who wrote 1984?",
+    "correct_answer": "Orwell",
+    "context_relevant": "George Orwell wrote the dystopian novel 1984.",
+    "context_misleading": "Aldous Huxley was famous for dystopian fiction about totalitarian futures."
+  },
+  {
+    "id": "item_002",
+    "category": "science",
+    "question": "Largest planet in our solar system?",
+    "correct_answer": "Jupiter",
+    "context_relevant": "Jupiter is the largest planet, a gas giant.",
+    "context_misleading": "Saturn is famous for its rings and enormous size."
+  },
+  {
+    "id": "item_003",
+    "category": "history",
+    "question": "Who painted the Mona Lisa?",
+    "correct_answer": "Leonardo",
+    "context_relevant": "Leonardo da Vinci painted the Mona Lisa.",
+    "context_misleading": "Michelangelo was the greatest Renaissance artist, da Vinci's rival."
+  },
+  {
+    "id": "item_004",
+    "category": "geography",
+    "question": "Capital of Canada?",
+    "correct_answer": "Ottawa",
+    "context_relevant": "Ottawa is Canada's capital with Parliament Hill.",
+    "context_misleading": "Toronto is Canada's largest city, often mistaken for the capital."
+  },
+  {
+    "id": "item_005",
+    "category": "science",
+    "question": "Who developed relativity?",
+    "correct_answer": "Einstein",
+    "context_relevant": "Albert Einstein developed the theory of relativity.",
+    "context_misleading": "Isaac Newton was the greatest physicist, dominated physics for centuries."
+  },
+  {
+    "id": "item_006",
+    "category": "history",
+    "question": "When did WWI end?",
+    "correct_answer": "1918",
+    "context_relevant": "WWI ended in 1918 with the Armistice.",
+    "context_misleading": "WWII was the largest conflict, ending in 1945."
+  },
+  {
+    "id": "item_007",
+    "category": "science",
+    "question": "Chemical symbol for sodium?",
+    "correct_answer": "Na",
+    "context_relevant": "Sodium has symbol Na from Latin natrium.",
+    "context_misleading": "Salt contains chlorine (Cl). Potassium (K) is similar to sodium."
+  },
+  {
+    "id": "item_008",
+    "category": "history",
+    "question": "Who wrote Romeo and Juliet?",
+    "correct_answer": "Shakespeare",
+    "context_relevant": "Shakespeare wrote Romeo and Juliet around 1595.",
+    "context_misleading": "Christopher Marlowe was Elizabethan England's greatest playwright."
+  },
+  {
+    "id": "item_009",
+    "category": "geography",
+    "question": "Smallest country in the world?",
+    "correct_answer": "Vatican",
+    "context_relevant": "Vatican City is smallest at 0.44 km².",
+    "context_misleading": "Monaco is tiny, famous for casinos. San Marino claims oldest republic."
+  },
+  {
+    "id": "item_010",
+    "category": "history",
+    "question": "First person on the moon?",
+    "correct_answer": "Armstrong",
+    "context_relevant": "Neil Armstrong first walked on the moon in 1969.",
+    "context_misleading": "Buzz Aldrin was key Apollo astronaut who walked on lunar surface."
+  },
+  {
+    "id": "item_011",
+    "category": "geography",
+    "question": "Largest ocean?",
+    "correct_answer": "Pacific",
+    "context_relevant": "Pacific is largest at 60+ million square miles.",
+    "context_misleading": "Atlantic separates Americas from Europe/Africa, crucial for trade."
+  },
+  {
+    "id": "item_012",
+    "category": "science",
+    "question": "Hardest natural substance?",
+    "correct_answer": "Diamond",
+    "context_relevant": "Diamond is hardest, rating 10 on Mohs scale.",
+    "context_misleading": "Titanium is incredibly strong. Tungsten has highest melting point."
+  },
+  {
+    "id": "item_013",
+    "category": "science",
+    "question": "Who discovered penicillin?",
+    "correct_answer": "Fleming",
+    "context_relevant": "Alexander Fleming discovered penicillin in 1928.",
+    "context_misleading": "Louis Pasteur developed germ theory and vaccines."
+  },
+  {
+    "id": "item_014",
+    "category": "geography",
+    "question": "Longest river?",
+    "correct_answer": "Nile",
+    "context_relevant": "The Nile is the longest river at ~6,650 km.",
+    "context_misleading": "The Amazon carries most water, drains largest basin."
+  }
+]
