@@ -8,7 +8,7 @@ on the causal and correlational versions and the gap between them.
 
 Output: results/exp1_results.json
 
-Runtime: roughly 2-3 hours on a single A100 80GB; dominated by Qwen2.5-32B
+Runtime: roughly 60-90 minutes on a single A100 80GB; dominated by Qwen2.5-32B
 loading and the larger models' inference.
 """
 import argparse
