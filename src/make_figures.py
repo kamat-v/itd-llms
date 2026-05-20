@@ -136,6 +136,10 @@ if __name__ == "__main__":
                         default=Path("results/exp1_results.json"))
     parser.add_argument("--exp2", type=Path,
                         default=Path("results/exp2_results.json"))
+    parser.add_argument("--exp1-instruct",type=Path,
+                        default=Path("results/exp1_instruct_results.json"))
+    parser.add_argument("--exp2-instruct", type=Path,
+                        default=Path("results/exp2_instruct_results.json"))
     parser.add_argument("--out_dir", type=Path, default=Path("figures"))
     args = parser.parse_args()
     args.out_dir.mkdir(parents=True, exist_ok=True)
@@ -148,3 +152,11 @@ if __name__ == "__main__":
         plot_exp2(args.exp2, args.out_dir / "figure_5_hallucination.pdf")
     else:
         print(f"Skipping figure 2: {args.exp2} not found")
+    if args.exp1_instruct.exists():
+        plot_exp1(args.exp1_instruct, args.out_dir / "figure_3_causal_instruct.pdf")
+    else:
+        print(f"Skipping instruct figure 1: {args.exp1_instruct} not found")
+    if args.exp2_instruct.exists():
+        plot_exp2(args.exp2_instruct, args.out_dir / "figure_5_hallucination_instruct.pdf")
+    else:
+        print(f"Skipping instruct figure 2: {args.exp2_instruct} not found")
