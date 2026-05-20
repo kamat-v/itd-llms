@@ -1,6 +1,8 @@
 """
-Model configuration shared by both experiments. All 12 models are ungated
-on HuggingFace.
+Model configuration. ALL_MODELS is the 12-model base set used in the main
+paper. INSTRUCT_MODELS is a 4-model paired sample of instruct counterparts
+used for the comparison reported in Appendix C. All models are ungated on
+HuggingFace.
 """
 import gc
 import time
@@ -18,9 +20,19 @@ ALL_MODELS = [
     ("EleutherAI/pythia-2.8b",               "Pythia-2.8B",      2.8),
     ("mistralai/Mistral-7B-v0.1",             "Mistral-7B",       7.0),
     ("Qwen/Qwen2.5-7B",                       "Qwen2.5-7B",       7.0),
-    ("mistralai/Mistral-Nemo-Instruct-2407",  "Mistral-Nemo-12B", 12.0),
+    ("mistralai/Mistral-Nemo-Base-2407",      "Mistral-Nemo-12B", 12.0),
     ("Qwen/Qwen2.5-14B",                      "Qwen2.5-14B",      14.0),
     ("Qwen/Qwen2.5-32B",                      "Qwen2.5-32B",      32.0),
+]
+
+# Instruction-tuned counterparts of the four most modern models.
+# Pythia/GPT-2/OPT predate the instruction-tuning era; Mistral-Nemo has
+# both Base and Instruct releases but we keep the Base in the main run.
+INSTRUCT_MODELS = [
+    ("mistralai/Mistral-7B-Instruct-v0.1",  "Mistral-7B-Instruct",   7.0),
+    ("Qwen/Qwen2.5-7B-Instruct",            "Qwen2.5-7B-Instruct",   7.0),
+    ("Qwen/Qwen2.5-14B-Instruct",           "Qwen2.5-14B-Instruct",  14.0),
+    ("Qwen/Qwen2.5-32B-Instruct",           "Qwen2.5-32B-Instruct",  32.0),
 ]
 
 
