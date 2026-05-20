@@ -36,7 +36,7 @@ Outputs land in `results/` (JSON) and `figures/` (PDF).
 The experiments were originally run on a single A100 80GB. Approximate wall-clock:
 
 - Experiment 1: ~60-90 minutes, dominated by the larger Qwen models.
-- Experiment 2: ~30-60 minutes, dominated by model loading.
+- Experiment 2: ~4 hours, dominated by model loading.
 
 A 40GB GPU should fit everything except possibly Qwen2.5-32B (the largest model). Smaller GPUs can run the experiments by editing `ALL_MODELS` or `INSTRUCT_MODELS` in `src/models.py` to remove larger models.
 

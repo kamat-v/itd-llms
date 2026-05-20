@@ -9,7 +9,7 @@ For each model and each item, we run both:
 
 Output: results/exp2_results.json
 
-Runtime: roughly 30-60 minutes on a single A100 80GB; mostly model loading.
+Runtime: roughly 4 hours on a single A100 80GB; mostly model loading.
 """
 import argparse
 import json
