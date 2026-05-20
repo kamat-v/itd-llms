@@ -18,7 +18,7 @@ from pathlib import Path
 import numpy as np
 from tqdm.auto import tqdm
 
-from models import ALL_MODELS, load_model, cleanup_model, clear_memory
+from models import ALL_MODELS, INSTRUCT_MODELS, load_model, cleanup_model, clear_memory
 from nll import compute_answer_nll
 
 
@@ -46,13 +46,14 @@ def is_correct(generated: str, answer: str) -> bool:
     return answer.lower() in generated.lower()
 
 
-def run(data_path: Path, output_path: Path) -> None:
+def run(data_path: Path, output_path: Path, models=None) -> None:
+    models=models or ALL_MODELS
     with open(data_path) as f:
         items = json.load(f)
     print(f"Loaded {len(items)} hallucination items from {data_path}")
 
     all_per_model = {}
-    for model_path, model_name, model_size in tqdm(ALL_MODELS, desc="Models"):
+    for model_path, model_name, model_size in tqdm(models, desc="Models"):
         print(f"\n=== {model_name} ({model_size}B) ===")
         try:
             model, tokenizer = load_model(model_path)
@@ -169,6 +170,9 @@ if __name__ == "__main__":
                         default=Path("data/hallucination_triples.json"))
     parser.add_argument("--output", type=Path,
                         default=Path("results/exp2_results.json"))
+    parser.add_argument("--instruct-output", type=Path,
+                        default=Path("results/exp2_instruct_results.json"))
     args = parser.parse_args()
     args.output.parent.mkdir(parents=True, exist_ok=True)
     run(args.data, args.output)
+    run(args.data, args.instruct_output, models=INSTRUCT_MODELS)
