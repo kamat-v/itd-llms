@@ -1,0 +1,163 @@
+{
+  "n_models": 12,
+  "n_questions": 15,
+  "models": [
+    "Pythia-70M",
+    "GPT-2-124M",
+    "OPT-350M",
+    "Pythia-410M",
+    "Pythia-1B",
+    "GPT-2-XL",
+    "Pythia-2.8B",
+    "Mistral-7B",
+    "Qwen2.5-7B",
+    "Mistral-Nemo-12B",
+    "Qwen2.5-14B",
+    "Qwen2.5-32B"
+  ],
+  "aggregate": {
+    "mean_acc_none": 0.6000000000000001,
+    "mean_acc_relevant": 0.8333333333333334,
+    "mean_acc_misleading": 0.49999999999999994,
+    "mean_flip_rate": 0.3444444444444445,
+    "std_flip_rate": 0.3040873818534224,
+    "degradation_rel_to_mis": 0.3333333333333334,
+    "mean_nll_none": 4.60542871269087,
+    "mean_nll_relevant": 2.527666334228383,
+    "mean_nll_misleading": 3.650663837086824
+  },
+  "per_model": [
+    {
+      "model": "Pythia-70M",
+      "acc_none": 0.0,
+      "acc_relevant": 0.0,
+      "acc_misleading": 0.0,
+      "nll_none": 12.602164109547934,
+      "nll_relevant": 9.192612171173096,
+      "nll_misleading": 9.404993279774983,
+      "flip_cases": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "model": "GPT-2-124M",
+      "acc_none": 0.06666666666666667,
+      "acc_relevant": 0.6,
+      "acc_misleading": 0.13333333333333333,
+      "nll_none": 7.340680185953776,
+      "nll_relevant": 3.6114628434181215,
+      "nll_misleading": 5.507191952069601,
+      "flip_cases": 7,
+      "flip_rate": 0.4666666666666667
+    },
+    {
+      "model": "OPT-350M",
+      "acc_none": 0.2,
+      "acc_relevant": 1.0,
+      "acc_misleading": 0.0,
+      "nll_none": 6.461683400472006,
+      "nll_relevant": 2.473977663119634,
+      "nll_misleading": 5.521102778116862,
+      "flip_cases": 15,
+      "flip_rate": 1.0
+    },
+    {
+      "model": "Pythia-410M",
+      "acc_none": 0.3333333333333333,
+      "acc_relevant": 0.8,
+      "acc_misleading": 0.13333333333333333,
+      "nll_none": 5.089903191725413,
+      "nll_relevant": 2.7813265641530354,
+      "nll_misleading": 4.695718010266622,
+      "flip_cases": 10,
+      "flip_rate": 0.6666666666666666
+    },
+    {
+      "model": "Pythia-1B",
+      "acc_none": 0.4,
+      "acc_relevant": 0.8,
+      "acc_misleading": 0.13333333333333333,
+      "nll_none": 4.794870034853617,
+      "nll_relevant": 2.4035583555698397,
+      "nll_misleading": 4.028887617588043,
+      "flip_cases": 10,
+      "flip_rate": 0.6666666666666666
+    },
+    {
+      "model": "GPT-2-XL",
+      "acc_none": 0.6,
+      "acc_relevant": 0.8666666666666667,
+      "acc_misleading": 0.5333333333333333,
+      "nll_none": 3.956163251399994,
+      "nll_relevant": 1.9400546421607336,
+      "nll_misleading": 3.378159840901693,
+      "flip_cases": 6,
+      "flip_rate": 0.4
+    },
+    {
+      "model": "Pythia-2.8B",
+      "acc_none": 0.8666666666666667,
+      "acc_relevant": 1.0,
+      "acc_misleading": 0.6666666666666666,
+      "nll_none": 2.6385160168011983,
+      "nll_relevant": 1.747360454003016,
+      "nll_misleading": 2.368950587511063,
+      "flip_cases": 5,
+      "flip_rate": 0.3333333333333333
+    },
+    {
+      "model": "Mistral-7B",
+      "acc_none": 1.0,
+      "acc_relevant": 0.9333333333333333,
+      "acc_misleading": 1.0,
+      "nll_none": 0.837066067258517,
+      "nll_relevant": 0.7728652829925219,
+      "nll_misleading": 0.7822503497203191,
+      "flip_cases": 0,
+      "flip_rate": 0.0
+    },
+    {
+      "model": "Qwen2.5-7B",
+      "acc_none": 0.9333333333333333,
+      "acc_relevant": 1.0,
+      "acc_misleading": 0.6666666666666666,
+      "nll_none": 3.9401115496953327,
+      "nll_relevant": 1.686411319176356,
+      "nll_misleading": 3.0891584793726605,
+      "flip_cases": 5,
+      "flip_rate": 0.3333333333333333
+    },
+    {
+      "model": "Mistral-Nemo-12B",
+      "acc_none": 1.0,
+      "acc_relevant": 1.0,
+      "acc_misleading": 0.9333333333333333,
+      "nll_none": 1.269152653714021,
+      "nll_relevant": 1.2252084210515022,
+      "nll_misleading": 1.1580540960033734,
+      "flip_cases": 1,
+      "flip_rate": 0.06666666666666667
+    },
+    {
+      "model": "Qwen2.5-14B",
+      "acc_none": 0.9333333333333333,
+      "acc_relevant": 1.0,
+      "acc_misleading": 0.8,
+      "nll_none": 2.7842085282007853,
+      "nll_relevant": 1.0305771663784982,
+      "nll_misleading": 2.0510173718134563,
+      "flip_cases": 3,
+      "flip_rate": 0.2
+    },
+    {
+      "model": "Qwen2.5-32B",
+      "acc_none": 0.8666666666666667,
+      "acc_relevant": 1.0,
+      "acc_misleading": 1.0,
+      "nll_none": 3.5506255626678467,
+      "nll_relevant": 1.4665811275442442,
+      "nll_misleading": 1.8224816819032033,
+      "flip_cases": 0,
+      "flip_rate": 0.0
+    }
+  ]
+}

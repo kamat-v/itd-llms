@@ -4,6 +4,8 @@ Regenerate the two figures used in the paper from `results/*.json`.
 Outputs:
   figures/figure_3_causal.pdf       (Figure 1 in paper)
   figures/figure_5_hallucination.pdf (Figure 2 in paper)
+  figures/figure_3_causal_instruct.pdf (Figure 3 in paper)
+  figures/figure_5_hallucination_instruct.pdf (Figure 4 in paper)
 
 Run after `run_experiment_1.py` and `run_experiment_2.py` have completed.
 """

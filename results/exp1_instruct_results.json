@@ -1,0 +1,38 @@
+{
+  "n_models": 4,
+  "n_tasks": 50,
+  "n_positive_gap": 4,
+  "sign_test_p": 0.0625,
+  "mean_gap": 0.105,
+  "std_gap": 0.06982120021884473,
+  "results": [
+    {
+      "model": "Mistral-7B-Instruct",
+      "size": 7.0,
+      "causal": 0.44,
+      "corr": 0.66,
+      "gap": 0.22000000000000003
+    },
+    {
+      "model": "Qwen2.5-7B-Instruct",
+      "size": 7.0,
+      "causal": 0.54,
+      "corr": 0.58,
+      "gap": 0.039999999999999925
+    },
+    {
+      "model": "Qwen2.5-14B-Instruct",
+      "size": 14.0,
+      "causal": 0.5,
+      "corr": 0.6,
+      "gap": 0.09999999999999998
+    },
+    {
+      "model": "Qwen2.5-32B-Instruct",
+      "size": 32.0,
+      "causal": 0.58,
+      "corr": 0.64,
+      "gap": 0.06000000000000005
+    }
+  ]
+}

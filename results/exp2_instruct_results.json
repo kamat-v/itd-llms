@@ -1,0 +1,67 @@
+{
+  "n_models": 4,
+  "n_questions": 15,
+  "models": [
+    "Mistral-7B-Instruct",
+    "Qwen2.5-7B-Instruct",
+    "Qwen2.5-14B-Instruct",
+    "Qwen2.5-32B-Instruct"
+  ],
+  "aggregate": {
+    "mean_acc_none": 0.9833333333333334,
+    "mean_acc_relevant": 0.9833333333333334,
+    "mean_acc_misleading": 0.9166666666666667,
+    "mean_flip_rate": 0.08333333333333333,
+    "std_flip_rate": 0.02886751345948129,
+    "degradation_rel_to_mis": 0.06666666666666665,
+    "mean_nll_none": 3.820084222993561,
+    "mean_nll_relevant": 2.1833311501599386,
+    "mean_nll_misleading": 2.8890221299918872
+  },
+  "per_model": [
+    {
+      "model": "Mistral-7B-Instruct",
+      "acc_none": 1.0,
+      "acc_relevant": 1.0,
+      "acc_misleading": 0.9333333333333333,
+      "nll_none": 1.8456884775213742,
+      "nll_relevant": 1.7000698326233155,
+      "nll_misleading": 1.6163842484374376,
+      "flip_cases": 1,
+      "flip_rate": 0.06666666666666667
+    },
+    {
+      "model": "Qwen2.5-7B-Instruct",
+      "acc_none": 0.9333333333333333,
+      "acc_relevant": 1.0,
+      "acc_misleading": 0.9333333333333333,
+      "nll_none": 5.241923344135285,
+      "nll_relevant": 2.232856155745685,
+      "nll_misleading": 2.7351559339712064,
+      "flip_cases": 1,
+      "flip_rate": 0.06666666666666667
+    },
+    {
+      "model": "Qwen2.5-14B-Instruct",
+      "acc_none": 1.0,
+      "acc_relevant": 0.9333333333333333,
+      "acc_misleading": 0.8666666666666667,
+      "nll_none": 3.374521851539612,
+      "nll_relevant": 2.369914748022954,
+      "nll_misleading": 3.664445864657561,
+      "flip_cases": 2,
+      "flip_rate": 0.13333333333333333
+    },
+    {
+      "model": "Qwen2.5-32B-Instruct",
+      "acc_none": 1.0,
+      "acc_relevant": 1.0,
+      "acc_misleading": 0.9333333333333333,
+      "nll_none": 4.818203218777975,
+      "nll_relevant": 2.430483864247799,
+      "nll_misleading": 3.5401024729013444,
+      "flip_cases": 1,
+      "flip_rate": 0.06666666666666667
+    }
+  ]
+}
