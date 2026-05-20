@@ -19,10 +19,10 @@ git clone <this repo>
 cd <this repo>
 pip install -r requirements.txt
 
-# Experiment 1: correlational bias (12 models x 50 matched pairs)
+# Experiment 1: correlational bias (12 base + 4 instruct models x 50 matched pairs)
 python src/run_experiment_1.py
 
-# Experiment 2: hallucination (12 models x 15 questions x 3 conditions)
+# Experiment 2: hallucination (12 base + 4 instruct models x 15 questions x 3 conditions)
 python src/run_experiment_2.py
 
 # Regenerate figures from the JSON results
@@ -44,7 +44,7 @@ The first run downloads ~120 GB of model weights from HuggingFace into the local
 
 ## Models
 
-All 12 models in `ALL_MODELS` are ungated on HuggingFace; no login or access request is required. They span a 457x parameter range across five families (Pythia, GPT-2, OPT, Mistral, Qwen). See `src/models.py` for the exact list.
+All 12 base models in `ALL_MODELS` and all 4 instruct models in `INSTRUCT_MODELS` are ungated on HuggingFace; no login or access request is required. They span a 457x parameter range across five families (Pythia, GPT-2, OPT, Mistral, Qwen). See `src/models.py` for the exact list.
 
 ## Reproducing specific paper claims
 
@@ -52,7 +52,7 @@ All 12 models in `ALL_MODELS` are ungated on HuggingFace; no login or access req
 
 ## Extending the benchmarks
 
-Both JSON files have stable schemas documented in `data/README.md`. To run the diagnostic on additional models, append entries to `ALL_MODELS` in `src/models.py`. To run on additional questions, append entries to either JSON file using the existing schema; the scripts treat the lists as data and do not assume a fixed length.
+Both JSON files have stable schemas documented in `data/README.md`. To run the diagnostic on additional models, append entries to `ALL_MODELS` or `INSTRUCT_MODELS` in `src/models.py`. To run on additional questions, append entries to either JSON file using the existing schema; the scripts treat the lists as data and do not assume a fixed length.
 
 ## Citation
 
