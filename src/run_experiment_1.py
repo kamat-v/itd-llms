@@ -19,7 +19,7 @@ import numpy as np
 from scipy.stats import binomtest
 from tqdm.auto import tqdm
 
-from models import ALL_MODELS, load_model, cleanup_model, clear_memory
+from models import ALL_MODELS, INSTRUCT_MODELS, load_model, cleanup_model, clear_memory
 from nll import compute_full_sequence_nll
 
 
@@ -32,13 +32,14 @@ def eval_mc(model, tokenizer, question, options):
     return int(np.argmin(nlls))
 
 
-def run(data_path: Path, output_path: Path) -> None:
+def run(data_path: Path, output_path: Path, models=None) -> None:
+    models=models or ALL_MODELS
     with open(data_path) as f:
         pairs = json.load(f)
     print(f"Loaded {len(pairs)} matched pairs from {data_path}")
 
     results = []
-    for model_path, model_name, model_size in tqdm(ALL_MODELS, desc="Models"):
+    for model_path, model_name, model_size in tqdm(models, desc="Models"):
         print(f"\n=== {model_name} ({model_size}B) ===")
         try:
             model, tokenizer = load_model(model_path)
@@ -104,6 +105,9 @@ if __name__ == "__main__":
                         default=Path("data/causal_pairs.json"))
     parser.add_argument("--output", type=Path,
                         default=Path("results/exp1_results.json"))
+    parser.add_argument("--instruct-output", type=Path,
+                        default=Path("results/exp1_instruct_results.json"))
     args = parser.parse_args()
     args.output.parent.mkdir(parents=True, exist_ok=True)
     run(args.data, args.output)
+    run(args.data, args.instruct_output, models=INSTRUCT_MODELS)
