@@ -1,6 +1,8 @@
 # An Information-Theoretic Diagnostic for Hallucination and Correlational Bias in LLMs
 
-Reproduction code and benchmarks for the EMNLP submission of the same title.
+Reproduction code and benchmarks for the paper of the same title, accepted at the 19th International Conference on Agents and Artificial Intelligence (ICAART 2027).
+
+**Authors:** Uday Kamath, Vikram Kamat
 
 ## What this repository contains
 
@@ -15,8 +17,8 @@ The repository is intentionally minimal: no Python package, no CI, no tests. It 
 ## Quickstart
 
 ```bash
-git clone <this repo>
-cd <this repo>
+git clone https://github.com/kamat-v/itd-llms.git
+cd itd-llms
 pip install -r requirements.txt
 
 # Experiment 1: correlational bias (12 base + 4 instruct models x 50 matched pairs)
@@ -33,12 +35,12 @@ Outputs land in `results/` (JSON) and `figures/` (PDF).
 
 ## Hardware and runtime
 
-The experiments were originally run on a single A100 80GB. Approximate wall-clock:
+The experiments were run on a single NVIDIA A100 (40GB). Approximate wall-clock:
 
 - Experiment 1: ~60-90 minutes, dominated by the larger Qwen models.
 - Experiment 2: ~4 hours, dominated by model loading.
 
-A 40GB GPU should fit everything except possibly Qwen2.5-32B (the largest model). Smaller GPUs can run the experiments by editing `ALL_MODELS` or `INSTRUCT_MODELS` in `src/models.py` to remove larger models.
+Smaller GPUs can run the experiments by editing `ALL_MODELS` or `INSTRUCT_MODELS` in `src/models.py` to remove larger models.
 
 The first run downloads ~120 GB of model weights from HuggingFace into the local cache. Subsequent runs read from cache.
 
@@ -56,7 +58,19 @@ Both JSON files have stable schemas documented in `data/README.md`. To run the d
 
 ## Citation
 
-To be added after de-anonymisation.
+If you use this code or the benchmarks, please cite:
+
+```bibtex
+@inproceedings{kk2027diagnostic,
+  title     = {An Information-Theoretic Diagnostic for Hallucination and Correlational Bias in {LLMs}},
+  author    = {Kamath, Uday and Kamat, Vikram},
+  booktitle = {Proceedings of the 19th International Conference on Agents and Artificial Intelligence (ICAART)},
+  publisher = {SciTePress},
+  year      = {2027}
+}
+```
+
+Page numbers and DOI will be added once the proceedings are published.
 
 ## License
 
